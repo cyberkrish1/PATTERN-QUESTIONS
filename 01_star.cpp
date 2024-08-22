@@ -1,3 +1,5 @@
+
+
 /*
     *
    **
@@ -5,6 +7,19 @@
  ****
 *****
 */
+//And
+/*
+
+*****
+****
+***
+**
+*
+
+*/
+
+//1st Part
+
 #include<iostream>
 
 using namespace std;
@@ -24,3 +39,24 @@ int main()
     }
     return 0;
 }
+
+//2nd Part
+
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    int rows,i,j,k;
+    cout<<"Enter no.of rows:";
+    cin>>rows;
+    for(i=0;i<rows;i++){
+            for(k=rows;k>i;k--){
+                cout<<"*";
+            }
+        
+        cout<<"\n";
+    }
+    return 0;
+}
+
