@@ -87,11 +87,11 @@ int main()
     cout<<"Enter no.of rows:";
     cin>>rows;
     for(i=0;i<rows;i++){
-            for(k=0;k<=rows-i-1;k++){
+            for(k=0;k<rows-i-1;k++){
                 cout<<" ";
             }
-            for(j=0;j<i;j++){
-            cout<<j+1;
+            for(j=0;j<=i;j++){
+            cout<<i+1;
         }
         cout<<"\n";
     }
