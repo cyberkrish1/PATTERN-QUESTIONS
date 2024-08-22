@@ -5,6 +5,7 @@ Descending Pattern
 54321
 54321
 */
+
 #include<iostream>
 using namespace std;
 int main()
