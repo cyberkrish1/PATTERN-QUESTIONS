@@ -14,7 +14,7 @@ int main()
     cin>>row;
     for(i=0;i<row;i++){
         for(j=0;j<row;j++){
-            cout<<i+1;
+            cout<<i+1<<" ";
         }        
         cout<<endl;
     }

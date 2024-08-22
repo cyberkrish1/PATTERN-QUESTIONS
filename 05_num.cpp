@@ -1,9 +1,9 @@
 /*
-12345
-12345
-12345
-12345
-12345
+1 4 9 16 25
+1 4 9 16 25
+1 4 9 16 25
+1 4 9 16 25
+1 4 9 16 25
 */
 #include<iostream>
 using namespace std;
@@ -13,8 +13,8 @@ int main()
     cout<<"Enter Number Of Rows:";
     cin>>row;
     for(i=0;i<row;i++){
-        for(j=0;j<row;j++){
-            cout<<j+1<<" ";
+        for(j=1;j<=row;j++){
+            cout<<j*j<<" ";
         }        
         cout<<endl;
     }
