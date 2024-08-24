@@ -6,6 +6,7 @@
 * * *     * * * 
 * *         * * 
 *             *
+for n=4
 */
 
 #include<iostream>
